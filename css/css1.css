@@ -1,3 +1,87 @@
-p {
+/*Article View CSS*/
+.articlebox {
+	display: flex;
+	margin: 100px auto;
+	width: 60%;
+	border: 2px solid lightgrey;
+	padding: 10px;
+}
+
+.article {
+	margin-left: 20px;
+}
+
+.article h1 {
+	margin-top: 5px;
+}
+
+
+/*Checkout View CSS*/
+.checkout {
+	display: flex;
+	margin: auto;
+	width: 90%;
+	height: 700px;
 	background-color: linen;
+	font-family: Arial;
+}
+
+.checkout > div {
+	margin: 18px;
+	border: 1px solid lightgrey;
+	border-radius: 8px;
+}
+
+.checkout_info {
+	display: flex;
+	flex-grow: 1;
+	background-color: whitesmoke;
+}
+
+.checkout_total {
+	flex-grow: 1;
+	height: 40%;
+	background-color: whitesmoke;
+}
+
+.checkout_info > div {
+	margin: 12px 15px;
+}
+
+.checkout_info h2 {
+	margin-bottom: 35px;
+}
+
+.info_billing, .info_payment {
+	width: 48%;
+	height: 85%;
+	/*background-color: lightgreen;*/
+}
+
+.checkout i {
+	font-size: 0.9em;
+}
+
+.checkout label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.checkout input {
+	width: 92%;
+	margin-bottom: 20px;
+	padding: 12px;
+}
+
+.state_zip {
+	display: flex;
+}
+
+.state_zip input {
+	width: 80%;
+}
+
+.billing_zip {
+	position: relative;
+	left: 22px;
 }
