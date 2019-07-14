@@ -17,10 +17,15 @@
 
 
 /*Checkout View CSS*/
+* {
+	box-sizing: border-box;
+}
+
 .checkout {
 	display: flex;
+	flex-flow: row wrap;
 	margin: auto;
-	width: 90%;
+	width: 80%;
 	height: 700px;
 	background-color: linen;
 	font-family: Arial;
@@ -56,7 +61,7 @@
 .info_billing, .info_payment {
 	width: 48%;
 	height: 85%;
-	/*background-color: lightgreen;*/
+	background-color: lightgreen;
 }
 
 .checkout i {
@@ -79,32 +84,24 @@
 	display: flex;
 }
 
-.state_zip input {
-	width: 84%;
-}
-
 .billing_zip {
 	position: relative;
-	left: 28px;
+	left: 60px;
 }
 
 .year_cvv {
 	display: flex;
 }
 
-.year_cvv input {
-	width: 84%;
-}
-
 .billing_cvv {
 	position: relative;
-	left: 28px;
+	left: 60px;
 }
 
-
-
-
-
+/*.last {
+	width: 100%;
+}
+*/
 
 
 .icon_group {
