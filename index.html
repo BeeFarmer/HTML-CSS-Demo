@@ -19,6 +19,7 @@
 
 <!-- Checkout View Pages -->
   <div class="checkout">
+
     <div class="checkout_info">
       <div class="info_billing">
         <h2>Billing Address</h2>
@@ -35,24 +36,48 @@
         <div class="state_zip">
           <div class="billing_state">
             <label>State</label>
-            <input type="text" placeholder="San Jose">
+            <input type="text" placeholder="CA">
           </div>
           <div class="billing_zip">
             <label>Zip</label>
-            <input type="text" placeholder="San Jose">
+            <input type="text" placeholder="90001">
           </div>
         </div>
       </div>
 
       <div class="info_payment">
         <h2>Payment</h2>
+
+        <label>Accepted Cards</label>
+        <div class="icon_group">
+          <i id="visa" class="fab fa-cc-visa"></i>
+          <i id="applepay" class="fab fa-cc-apple-pay"></i>
+          <i id="discover" class="fab fa-cc-discover"></i>
+          <i id="master" class="fab fa-cc-mastercard"></i>
+        </div>
+        <label>Name on Card</label>
+        <input type="text" placeholder="John M. Doe">
+        <label>Credit Card Number</label>
+        <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx">
+        <label>Exp Month</label>
+        <input type="text" placeholder="August">
+
+        <div class="year_cvv">
+          <div class="billing_year">
+            <label>Exp Year</label>
+            <input type="text" placeholder="2018">
+          </div>
+          <div class="billing_cvv">
+            <label>CVV</label>
+            <input type="text" placeholder="123">
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="checkout_total">
-      
-
     </div>
+
   </div>
 
 

@@ -34,13 +34,14 @@
 
 .checkout_info {
 	display: flex;
+	width: 48%;
 	flex-grow: 1;
 	background-color: whitesmoke;
 }
 
 .checkout_total {
 	flex-grow: 1;
-	height: 40%;
+	height: 41%;
 	background-color: whitesmoke;
 }
 
@@ -69,8 +70,9 @@
 
 .checkout input {
 	width: 92%;
-	margin-bottom: 20px;
+	margin-bottom: 22px;
 	padding: 12px;
+	border-radius: 5px;
 }
 
 .state_zip {
@@ -78,10 +80,40 @@
 }
 
 .state_zip input {
-	width: 80%;
+	width: 84%;
 }
 
 .billing_zip {
 	position: relative;
-	left: 22px;
+	left: 28px;
 }
+
+.year_cvv {
+	display: flex;
+}
+
+.year_cvv input {
+	width: 84%;
+}
+
+.billing_cvv {
+	position: relative;
+	left: 28px;
+}
+
+
+
+
+
+
+
+.icon_group {
+	margin-bottom: 21px;
+	padding: 7px;
+	font-size: 25px;
+}
+
+#visa {color: navy;}
+#applepay {color: blue;}
+#discover {color: orange;}
+#master {color: red;}
