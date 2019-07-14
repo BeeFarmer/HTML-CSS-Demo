@@ -1,0 +1,28 @@
+HTML Links - Syntax, Note
+Without forward slash, generate two requests to server?
+
+HTML Links - Target Attribute
+target="_parent or _top" situations examples reproduce (nested iframes??)
+
+Image Size - Width and Height
+Without W and H, why would pic flicker??
+
+Special Style for One Table
+(table)#t01, since id need to be unique within entire doc?
+
+Lists C Summary
+display:inline How??
+
+Web Workers Explanation in details
+
+CSS Margins auto Value
+margin: auto, why only horizontally?
+
+CSS Fonts font-size
+px em rem vm(responsive)?? 
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar
+no position: relative?
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid
+overflow: hidden?
