@@ -19,6 +19,7 @@
 /*Checkout View CSS*/
 * {
 	box-sizing: border-box;
+  font-family: Arial;
 }
 
 .checkout {
@@ -26,8 +27,7 @@
 	margin: auto;
 	width: 80%;
 	height: 700px;
-	background-color: linen;
-	font-family: Arial;
+	background-color: ;
 }
 
 .checkout > div {
@@ -44,6 +44,8 @@
 }
 
 .checkout_total {
+  display: flex;
+  flex-flow: column nowrap;
 	flex: 1;
 	height: 41%;
 	background-color: whitesmoke;
@@ -120,7 +122,6 @@
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-
 .icon_group {
 	margin-bottom: 21px;
 	padding: 7px;
@@ -131,3 +132,30 @@
 #applepay {color: blue;}
 #discover {color: orange;}
 #master {color: red;}
+
+.checkout_total > div {
+  display: flex;
+  justify-content: space-between;
+  background-color: ;
+  line-height: 36px;
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+.checkout_total a {
+  text-decoration: none;
+}
+
+.price {
+  color: grey;
+  margin-right: 15px;
+}
+
+.price_em {
+  margin-right: 15px;
+}
+
+hr {
+  width: 85%;
+  border: 1px solid lightgrey;
+}
