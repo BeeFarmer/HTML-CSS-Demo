@@ -8,6 +8,7 @@
   position: sticky;
   margin: -8px;
   top: 0;
+  z-index: 2;
 }
 
 .nav_container {
@@ -195,4 +196,94 @@
 hr {
   width: 85%;
   border: 1px solid lightgrey;
+}
+
+/*Timeview CSS*/
+.timeview_container {
+  display: flex;
+  width:80%;
+  margin: auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.tv_box {
+  display: flex;
+  position: relative;
+  width: 49%;
+  height: 350px;
+  background-color: #7171be;
+}
+
+.tv_content {
+  background-color: white;
+  border: medium solid white;
+  border-radius: 8px;
+  width: 80%;
+  height: 83%;
+  position: relative;
+  top: 30px;
+}
+
+.left .tv_content {
+  left: 13%;
+}
+
+.right .tv_content {
+  left: 7%;
+}
+
+.left::after {
+  content: " ";
+  width: 0; 
+  height: 0;
+  position: absolute;
+  top: 44px;
+  right: 5%;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid white;
+  z-index: 1;
+}
+
+.right::before {
+  content: " ";
+  width: 0; 
+  height: 0;
+  position: absolute;
+  top: 44px;
+  left: 5%;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid white;
+  z-index: 1;
+}
+
+.left i, .right i {
+  font-size: 34px;
+  position: absolute;
+  top: 44px;
+  z-index: 1;
+  color: orange;
+}
+
+.left i {
+  right: -3.5%;
+}
+
+.right i {
+  left: -3.5%;
+}
+
+.tv_content > h1, p {
+  padding: 0 25px;
+}
+
+.tv_content h1 {
+  font-size: 48px;
+}
+
+.tv_content p {
+  font-size: 20px;
 }
