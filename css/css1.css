@@ -3,7 +3,7 @@
   font-family: Arial;
 }
 
-/*Navigation Bar CSS*/
+/* ===Navigation Bar CSS=== */
 .navbar {
   position: sticky;
   margin: -8px;
@@ -31,7 +31,7 @@
 }
 
 .nav_container li a:hover {
-  transition-duration: 0.4s;
+  transition-duration: .4s;
   background-color: #4eb151;
 }
 
@@ -40,7 +40,7 @@
 }
 
 
-/*Article View CSS*/
+/* ===Article View CSS=== */
 .articlebox {
 	display: flex;
 	margin: 100px auto;
@@ -58,7 +58,7 @@
 }
 
 
-/*Checkout View CSS*/
+/* ===Checkout View CSS=== */
 .checkout {
 	display: flex;
 	margin: auto;
@@ -96,15 +96,14 @@
 	margin-bottom: 35px;
 }
 
-.info_billing, .info_payment {
+.info_billing,
+.info_payment {
   flex-basis: 44%;
 	height: 85%;
-  /*For Debugging*/
-	/*background-color: lightgreen;*/
 }
 
 .checkout i {
-	font-size: 0.9em;
+	font-size: .9em;
 }
 
 .checkout label {
@@ -124,7 +123,8 @@
 	justify-content: space-between;
 }
 
-.billing_state, .billing_zip {	
+.billing_state,
+.billing_zip {	
 	flex-basis: 45%;
 }
 
@@ -133,7 +133,8 @@
   justify-content: space-between;
 }
 
-.billing_year, .billing_cvv{
+.billing_year,
+.billing_cvv{
   flex-basis: 45%;
 }
 
@@ -152,7 +153,7 @@
   border-radius: 8px;
   margin: 15px 0;
   cursor: pointer;
-  transition-duration: 0.3s;
+  transition-duration: .3s;
 }
 
 .btn:hover {
@@ -198,7 +199,8 @@ hr {
   border: 1px solid lightgrey;
 }
 
-/*Timeview CSS*/
+
+/* ===Timeview CSS=== */
 .timeview_container {
   display: flex;
   width:80%;
@@ -260,7 +262,8 @@ hr {
   z-index: 1;
 }
 
-.left i, .right i {
+.left i,
+.right i {
   font-size: 34px;
   position: absolute;
   top: 44px;
